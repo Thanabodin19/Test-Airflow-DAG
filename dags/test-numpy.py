@@ -9,7 +9,7 @@ def print_hello():
     y = 10
     print(f"result X^Y= {np.power(x,y)}")
 
-dag = DAG('hello_world_test2', description='Hello World DAG2',
+dag = DAG('test-numpy', description='Hello World DAG2',
           schedule_interval='0 12 * * *',
           start_date=datetime(2024, 12, 12), catchup=False)
 
